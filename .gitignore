@@ -1,0 +1,25 @@
+# PHP dependencies
+/vendor/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Composer files
+composer.phar
+composer.lock
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE / editor folders
+.vscode/
+.idea/
+nbproject/
+
+# Logs and temporary files
+*.log
+*.cache
+*.tmp

@@ -1,0 +1,14 @@
+{
+  "name": "test-candidate/supabase-php",
+  "description": "Simple PHP example for connecting to Supabase using the REST API.",
+  "type": "project",
+  "require": {
+    "guzzlehttp/guzzle": "^7.0",
+    "vlucas/phpdotenv": "^5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "SupabaseExample\\": "src/"
+    }
+  }
+}
